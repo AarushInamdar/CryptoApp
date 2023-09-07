@@ -1,12 +1,23 @@
 import { FC } from 'react';
+import { Switch, Route, Link} from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd';
 
 import './style.css';
 
-export const App: FC<{ name: string }> = ({ name }) => {
+export const App = () => {
   return (
-    <div>
-      <h1>Hello {name}!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className = 'app'>
+      <div className = 'navbar'>
+        
+      </div>
+      
+      <div className = "main">
+
+      </div>
+      
+      <div className = "footer">
+      
+      </div>
     </div>
   );
 };
